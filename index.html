@@ -1,0 +1,33 @@
+<!--Source file name:           index.html
+    Author's name:              Lisa Chiang (student ID 300925122)
+    Last Modified by:           Lisa Chiang
+    Date Last Modified:         June 18, 2017
+    Program Description:        The user can play in an adventure world, in which he/she can move the character
+                                in the up, down, left, right by using the corresponing keyboard keys.
+                                Every time the user chooses a move, the content of the target box is revealed, and
+                                5 possible elements can be found: 
+                                - a free way -> user can move to that box
+                                - a wall -> user cannot move to that box
+                                - a reward -> user can move to that box and earns that reward
+                                - a danger of type 1 -> user loses 
+                                - a danger of type 2 -> user has must restart from the beginning
+                                - the final goal -> user wins
+    Revision History:           Version 1 made on June 11, 2017
+                                Corrected and Final Version made on June 18, 2017
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/tweenjs-0.5.1.min.js"></script>
+    <script src="lisachiang_300925122_ass1.js"></script>
+</head>
+
+<body onload="init()" style="margin: 20px">
+    <canvas id="canvas" width="600" height="600" style="border: black solid 1px"></canvas>
+</body>
+
+</html>
